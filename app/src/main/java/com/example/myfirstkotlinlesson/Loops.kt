@@ -17,12 +17,6 @@ fun main(){
     }
     println("\nwhile loop is done")
 
-    var x = 10
-    while (x <= 20){
-        print("$x ")
-        x -= 2
-    }
-    println("\nwhile loop is done")
 
 
     // Do while loop
@@ -41,7 +35,7 @@ fun main(){
         roomTemp++
         if(roomTemp == 20){
             feltTemp = "comfy"
-            println("it's comfy now")
+            println("\nit's comfy now")
         }
     }
 
@@ -56,7 +50,7 @@ fun main(){
 
     // infix notation
     for(i in 1 until 10) { // Same as - for(i in 1.until(10))
-        print("$i ")
+        print("$i ") //1 2 3 4 5 6 7 8 9
     }
 
     for(i in 10 downTo 1) {     // Same as - for(i in 10.downTo(1))
@@ -64,12 +58,12 @@ fun main(){
     }
 
     for(i in 1 until 10 step 2) { // Same as - for(i in 1.until(10).step(2))
-        print("$i ") //2 4 6 8
+        print("$i ") //1 3 5 7 9
     }
 
 
-    for(num in 1..10000) {
-        if (num == 9001)
+    for(num in 1..10) {
+        if (num == 9)
             print("IT'S OVER 9000!!!")
     }
 
