@@ -8,7 +8,7 @@ fun main(){
     println(avg(3.2,5.3)) //4.25
 }
 
-// The syntax of a function - fun stands for function
+// The syntax of a function -fun stands for function
 fun myFunction(){
     // The body of a function
     println("myFunction was called")

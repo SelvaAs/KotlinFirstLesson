@@ -35,7 +35,7 @@ fun main(){
     println("name is $name1") //name is Halil
 
 
-// So how can we solve this? We could do a null check before hand
+// So how can we solve this? We could do a null check beforehand
 
     val nullableName2: String? = "Mesut"
 
