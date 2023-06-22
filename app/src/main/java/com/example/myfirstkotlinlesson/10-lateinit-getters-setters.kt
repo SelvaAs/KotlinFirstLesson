@@ -1,4 +1,4 @@
-package com.example.myfirstkotlinlesson
+ipackage com.example.myfirstkotlinlesson
 
 fun main() {
 
@@ -39,8 +39,8 @@ fun main() {
 
 // value
 // We use value as the name of the setter parameter. This is the default convention in Kotlin but you’re free to use any other name if you want.
-// The value parameter contains the value that a property is assigned to. For example, when you write user.name = "Elon Musk",
-// the value parameter contains the assigned value "Elon Musk".
+// The value parameter contains the value that a property is assigned to. For example, when you write user.name = "Selvi",
+// the value parameter contains the assigned value "Selvi".
 
 // 2. Backing Field (field)
 // Backing field helps you refer to the property
