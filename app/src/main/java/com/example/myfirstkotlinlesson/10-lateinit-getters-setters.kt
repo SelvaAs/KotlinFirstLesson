@@ -2,17 +2,7 @@ package com.example.myfirstkotlinlesson
 
 fun main() {
 
-//lateinit
-    //degiskenleri tanimladigimiz zaman degilde sonra baslatmamiz gerektigi durumlarda leteinit kullanilir.
-    //Ama eger sonra baslatmazsak hata verecektir.
 
-    class car(){
-
-        lateinit var owner : String
-        init {
-            this.owner = "Selvi"
-        }
-    }
 // SETTERS AND GETTERS
 
     // User class with a Primary constructor that accepts
@@ -24,8 +14,7 @@ fun main() {
         var maxSpeed: Int = _maxSpeed       // Mutable
     }
 
-// Kotlin internally generates a default getter and setter for mutable properties,
-// and a getter (only) for read-only properties.
+// Kotlin internally generates a default getter and setter for mutable properties, and a getter (only) for read-only properties.
 
     //   It calls these getters and setters internally whenever
 // you access or modify a property using the dot(.) notation.
@@ -50,7 +39,7 @@ fun main() {
 
 // value
 // We use value as the name of the setter parameter. This is the default convention in Kotlin but you’re free to use any other name if you want.
-// The value parameter contains the value that a property is assigned to. For example, when you write user. name = "Elon Musk",
+// The value parameter contains the value that a property is assigned to. For example, when you write user.name = "Elon Musk",
 // the value parameter contains the assigned value "Elon Musk".
 
 // 2. Backing Field (field)
