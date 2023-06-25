@@ -50,7 +50,7 @@ fun main() {
     val person2 = Student("Elon", "Musk",45)
 
 
-// Having multiple overloads:
+// Having multiple overloads
 
     class People1(var firstName: String, var lastName: String) {
         var age: Int? = null
