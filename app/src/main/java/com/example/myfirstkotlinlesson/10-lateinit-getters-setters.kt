@@ -48,7 +48,7 @@ fun main() {
 // This is required because if you use the property
 // directly inside the getter or setter then you’ll
 // run into a recursive call which will generate
-// a StackOverflowError.
+// a StackOverflowError
 
 
     val maxSpeed = 200
