@@ -41,3 +41,6 @@ class Circle() : Shape() {
 open class Rectangle() : Shape() {
   final override fun draw() { /*...*/ }
 }
+
+//Sealed classes
+//boylece bu classin open yapilamayacagi muhurlenmis olur.
