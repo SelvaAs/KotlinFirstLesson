@@ -20,7 +20,7 @@ fun main() {
     addionalMonths.add("Jun")
     println(addionalMonths) //Jan Feb Ap May Jun
 
-    //array listi direk mutable olarakta yazabiliriz
+    //array listi direk mutable olarakta yazabiliriz.
     val days = mutableListOf<String>("Mon","Tue")
     days.add("Wed")
     println(days)// Mon,Tue,Wed
