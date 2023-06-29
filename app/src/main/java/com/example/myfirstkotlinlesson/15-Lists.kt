@@ -10,7 +10,7 @@ fun main() {
     for (month in months) {
         println(month) //jan Feb
     }
-    // months array listine bir sey ekleyemem cunku immutabledir
+    // months array listine bir sey ekleyemem cunku immutabledir.
     // eger bir seyler eklemek istersem onu degistirilebilir yapmaliyim
 
     val addionalMonths = months.toMutableList()
