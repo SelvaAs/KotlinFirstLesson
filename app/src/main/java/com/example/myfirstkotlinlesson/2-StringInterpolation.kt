@@ -43,11 +43,11 @@ fun main(){
     println("myNum is $myNum") //33
     // increments after use
     println("myNum is ${myNum++}") //33 isaret islemden sonradir.Yani islem bittikten sonra sayi artar  34 olur ama burayi etkilemez burasi 33 tur.
-                                    //ama bundan sonraki islemlerde 34 olarak devam eder.
+                                    //ama bundan sonraki islemlerde 34 olarak devam eder....
     // increments before use
     println("myNum is ${++myNum}") //35 onceki islem bittikten sonra 34 olmustu,burda ise isaret sayidan once oldugu icin
                                     //once islemi yapar sonra sayi degisir.O yuzden sayi burda 1 artar ve 35 olur
 
-    println("myNum is ${--myNum}") //34  ustteki durum burda da soz konusudur.35 bir azalir ve 34 olur
+    println("myNum is ${--myNum}") //34  ustteki durum burda da soz konusudur.35 bir azalir ve artik 34 olur
 
 }
