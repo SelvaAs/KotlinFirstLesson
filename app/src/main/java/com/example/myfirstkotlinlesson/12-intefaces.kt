@@ -15,7 +15,7 @@ interface MyInterface {
     }
 }
 
-//A class or object can implement one or more interfaces:
+//A class or object can implement one or more interfaces
 
 class Child : MyInterface {
     override fun bar() {
