@@ -2,7 +2,7 @@ package com.example.myfirstkotlinlesson
 
 fun main() {
     println("Hello, world!!!")
-    // This is a comment. Comments start with //
+    // This is a comment. Comments start with 
     // val is used for variables which are immutable (not changable)
     val myName = "Denis"
     // myName = "Michael" // ERROR: Val cannot be reassigned
