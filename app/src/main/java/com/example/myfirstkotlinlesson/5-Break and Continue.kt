@@ -13,7 +13,7 @@ fun main(){
         for (i in 1 until 20) {
 
             // 10/2=5
-            // 11/2=5.5 which is 5 in term of an int
+            // 11/2=5.5 which is 5 in term of an integer
             if (i / 2 == 5) {
               continue
             }
